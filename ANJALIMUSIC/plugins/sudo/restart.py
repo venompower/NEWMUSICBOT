@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from SACHIN_MUSIC import app
-from SACHIN_MUSIC.misc import HAPP, SUDOERS, XCB
-from SACHIN_MUSIC.utils.database import (
+from ANJALIMUSIC import app
+from ANJALIMUSIC.misc import HAPP, SUDOERS, XCB
+from ANJALIMUSIC.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from SACHIN_MUSIC.utils.decorators.language import language
-from SACHIN_MUSIC.utils.pastebin import SACHINBin
+from ANJALIMUSIC.utils.decorators.language import language
+from ANJALIMUSIC.utils.pastebin import SACHINBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
