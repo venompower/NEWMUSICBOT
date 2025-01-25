@@ -1,6 +1,9 @@
-from ANJALIMUSIC.misc import SUDOERS
-from ANJALIMUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
+
+from ANJALIMUSIC import app
+from ANJALIMUSIC.misc import SUDOERS
+from config import SUPPORT_CHAT
+from ANJALIMUSIC.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
