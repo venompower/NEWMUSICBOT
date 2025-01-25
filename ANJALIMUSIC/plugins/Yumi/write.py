@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from config import  BOT_USERNAME
-from SACHIN_MUSIC import app as app
+from ANJALIMUSIC import app as app
 import requests
 
 @app.on_message(filters.command("write"))
