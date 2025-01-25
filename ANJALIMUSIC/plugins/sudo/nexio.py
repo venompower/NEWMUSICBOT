@@ -4,7 +4,7 @@ from ANJALIMUSIC import app, userbot
 from ANJALIMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from ANJALIMUSIC.utils.anjali_ban import admin_filter
+from ANJALIMUSIC.utils.ANJALIBAN import admin_filter
 from config import OWNER_ID
 from pyrogram.types import ChatPrivileges
 from pyrogram.errors import RPCError
